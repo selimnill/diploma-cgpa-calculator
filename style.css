@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+body{
+    background: linear-gradient(90deg, rgb(31, 31, 208), rgb(43, 141, 180));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1300px;
+}
+section{
+    margin: auto;
+}
+.box{
+    margin-top: 10%;
+    /* margin-left: 20%; */
+}
+.title{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+.input-form{
+    height: 100vh;
+    max-width: 600px;
+    margin: auto;
+}
+.input-form input{
+    max-width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    gap: 40px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid rgb(8, 58, 238);
+}
+.submit{
+    border: none;
+    background: linear-gradient(90deg, rgb(17, 95, 10), rgb(20, 223, 10));
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: auto;
+    font-size: 15px;
+    margin-left: 50px;
+    width: 130px;
+}
+.reset{
+    border: none;
+    background: linear-gradient(90deg, rgb(95, 10, 75), rgb(223, 10, 21));
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: auto;
+    font-size: 15px;
+    margin-left: 120px;
+    width: 130px;
+}
+.output{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+}
+.submit:hover, .reset:hover{
+    transition: 0.5s;
+}
+.developer{
+    color: gray;
+    margin-top: 400px;
+    text-align: center;
+}
+.developer a{
+    color: tomato;
+}
+.developer a:hover{
+    font-size: 20px;
+    transition: 0.7s ease-in;
+}
+@media only screen and (max-width: 600px) {
+    .input-form{
+      height: 100vh;
+    }
+    .input-form input{
+        margin: 10px;
+        margin-left: 80px;
+    }
+    .submit{
+        margin-left: 120px;
+        margin-bottom: 10px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .input-form{
+      height: 100vh;
+    }
+    .input-form input{
+        margin: 10px;
+        margin-left: 80px;
+    }
+    .submit{
+        margin-left: 120px;
+        margin-bottom: 10px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .input-form{
+      height: 1200px;
+    }
+    .input-form input{
+        height: 35px;
+        margin: 10px;
+        margin-left: 100px;
+    }
+    .submit{
+        margin-left: 140px;
+        margin-bottom: 10px;
+    }
+    .reset{
+        margin-left: 140px;
+    }
+  }
+  @media only screen and (max-width: 1400px) {
+    .output{
+        margin-right: 70px;
+    }
+  }
